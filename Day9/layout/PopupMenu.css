@@ -1,0 +1,40 @@
+/* PopupMenu.css */
+
+.popup-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  ul.menu-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    list-style: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  ul.menu-list li {
+    padding: 5px 0;
+  }
+  
+  /* Show the menu when the button is clicked */
+  .popup-menu:hover ul.menu-list {
+    display: block;
+  }
+  

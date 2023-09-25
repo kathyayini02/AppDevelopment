@@ -1,0 +1,9 @@
+.d{
+    text-align: left;
+    font-family:'Courier New', Courier, monospace; /* Specify the font family */
+    font-size: 18px; /* Specify the font size */
+    font-weight: bold; /* Specify the font weight (e.g., normal, bold, etc.) */
+    font-style: italic; /* Specify the font style (e.g., normal, italic) */
+    line-height: 1.5; /* Specify the line height (adjust as needed) */
+    color: #333;
+  }

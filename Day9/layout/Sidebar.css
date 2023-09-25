@@ -1,0 +1,79 @@
+.bo{
+  background-image: url('../Asset/kl.jpg');
+    margin: 0;
+      height:100vh;
+     background-repeat: no-repeat;
+      background-size: cover;
+     
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+        background-color:rgb(31, 8, 132);
+      
+}
+.panel {
+  font-family:'Courier New', Courier, monospace; /* Specify the font family */
+  /* Specify the font size */
+ font-weight: bold; /* Specify the font weight (e.g., normal, bold, etc.) */
+ font-style: italic;
+  color: white;
+  flex: 1;
+  min-width: calc(33.33% - 20px);
+  background-color: rgb(31, 8, 132);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+      .sidebar {
+    width: 220px;
+    height: 100%;
+    background-color: #d2c1c1;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Add scroll if needed */
+  }
+  
+  .sidebar-header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .sidebar h2 {
+    margin: 0;
+    color: #000000;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    color:#000000
+  }
+  
+  .sidebar-menu li {
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .sidebar-menu li:hover {
+    background-color: #837272;
+  }
+  .center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    margin-left: 350px;
+    object-fit: cover; /* Ensure the image takes up at least the full viewport height */
+  }
+  
+  /* Style for the image */
+  .center-image img {
+    max-width: 100%; /* Ensure the image does not exceed the viewport width */
+    max-height: 100%; /* Ensure the image does not exceed the viewport height */
+  }

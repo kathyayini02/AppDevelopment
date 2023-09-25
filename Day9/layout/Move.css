@@ -1,0 +1,26 @@
+.image-container {
+  position: relative;
+  width: 370px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  object-fit: cover;
+}
+
+.moving-image {
+  position: relative;
+  width: 1000px; /* Adjust as needed */
+  height: 300px;
+  
+  animation: moveImage 5s linear infinite; /* Adjust the animation duration and type as needed */
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%); /* Adjust the distance you want the image to move */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
