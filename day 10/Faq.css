@@ -1,0 +1,9 @@
+.faq-item {
+   text-decoration-color: antiquewhite;
+    margin: 30;
+      height:110vh;
+    
+      background-size: cover;
+    padding: 0px; /* Optional: Add padding to the content */
+    /* Add your content styles here */
+}

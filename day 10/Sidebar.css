@@ -1,0 +1,39 @@
+.sidebar {
+    width: 220px;
+    height: 70%;
+    background-color: #af9163;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto; 
+  }
+  
+  .sidebar-header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .sidebar h2 {
+    margin: 0;
+    color: #000000;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 10;
+    
+  }
+  .dashicon
+  {
+    text-decoration: none;
+  }
+  .sidebar-menu li {
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .sidebar-menu li:hover {
+    background-color: #2a2828;
+  }
